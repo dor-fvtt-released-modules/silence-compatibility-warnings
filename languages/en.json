@@ -3,7 +3,7 @@
         "settings" : {
             "silenceEnabled" : {
                 "name" : "Silence Compatibility Warnings?",
-                "hint" : "Enable to suppress compatibility warnings in the console for all connected clients."
+                "hint" : "Enable to suppress compatibility warnings in the console for all connected clients. Changing this setting triggers a reload."
             }
         }
     }

@@ -31,7 +31,9 @@ function registerSettings() {
         config: true,
         default: "true",
         type: Boolean,
-        onChange: () => setCompatibilityMode(),
+        onChange: () => {
+            foundry.utils.debouncedReload();
+        },
     });
 }
 
