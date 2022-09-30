@@ -1,0 +1,36 @@
+{
+  "name": "silence-compatibility-warnings",
+  "description": "Does something, probably",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "author": "Dor (https://github.com/Doresain)",
+  "contributors": [
+    "Dor (https://github.com/Doresain)"
+  ],
+  "devDependencies": {
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dor-fvtt-scratch/silence-compatibility-warnings.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dor-fvtt-scratch/silence-compatibility-warnings/issues"
+  },
+  "homepage": "https://github.com/dor-fvtt-scratch/silence-compatibility-warnings#readme"
+}

@@ -1,0 +1,5 @@
+silence-compatibility-warnings.lock
+.idea/
+node_modules/
+foundry.js
+package-lock.json

@@ -1,3 +1,10 @@
 {
-    "MODULE.hello": "hello"
+    "silence-compatibility-warnings": {
+        "settings" : {
+            "silenceEnabled" : {
+                "name" : "Silence Compatibility Warnings?",
+                "hint" : "Enable to suppress compatibility warnings in the console for all connected clients."
+            }
+        }
+    }
 }

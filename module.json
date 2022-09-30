@@ -1,34 +1,22 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "silence-compatibility-warnings",
+  "title": "Silence Compatibility Warnings",
+  "description": "A simple module that silences compatibility warnings in the browser JavaScript console.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "verified": 10
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Dor",
+      "discord": "Dor#7514"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
   "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
+    "module/silence-compatibility-warnings.mjs"
   ],
   "languages": [
     {
@@ -40,12 +28,15 @@
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
+  "readme": "https://raw.githubusercontent.com/dor-fvtt-released-modules/silence-compatibility-warnings/master/README.md",
+  "changelog": "https://raw.githubusercontent.com/dor-fvtt-released-modules/silence-compatibility-warnings/master/CHANGELOG.md",
+  "bugs": "https://github.com/dor-fvtt-released-modules/silence-compatibility-warnings/issues",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "type": "cover",
+      "url": ""
     }
   ]
 }
