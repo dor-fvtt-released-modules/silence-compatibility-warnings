@@ -7,7 +7,7 @@
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
-    "verified": 10
+    "verified": 11
   },
   "authors": [
     {
@@ -36,6 +36,10 @@
     {
       "type": "cover",
       "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/silence-compatibility-warnings/master/images/silence.png"
+    },
+    {
+      "type": "setup",
+      "url": "modules/silence-compatibility-warnings/images/silence.png"
     }
   ]
 }
